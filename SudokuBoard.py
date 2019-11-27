@@ -13,3 +13,14 @@ class SudokuBoard(object):
                 raise SudokuError(
                     "Cada linea del tablero deben ser de 9 de largo"
                 )
+            tablero.append([])
+
+            for c in line:
+                if not c.isdigit():
+                    raise SudokuError(
+                        "Caracteres Validos solo son de 0-9"
+                    )
+                tablero[-1].append(int(c))
+        if len(tablero)!=9:
+            raise SudokuError("Cada Sudoku debe ser 9 lineas de largo")
+        return tablero

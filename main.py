@@ -26,7 +26,7 @@ def parse_args():
 if __name__ == '__main__':
     board_name = parse_args()
 
-    with open('%s.sudoku' % board_name, 'r') as boards_file:
+    with open('%s.board' % board_name, 'r') as boards_file:
         game = SudokuGame(boards_file)
         game.start()
 

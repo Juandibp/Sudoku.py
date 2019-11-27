@@ -1,9 +1,9 @@
-
+from SudokuBoard import *
 class SudokuGame(object):
 
     def __init__(self,fileTablero):
         self.fileTablero=fileTablero
-        self.EmpezarJuego = SudokuGame(fileTablero).board
+        self.EmpezarJuego = SudokuBoard(fileTablero).tablero
 
     def start(self):
         self.GameOver = False
@@ -41,7 +41,7 @@ class SudokuGame(object):
     def __validarCuadrado(self, row, column):
         return self.__validarBloque(
             [
-                self.puzzle[r][c]
+                self.juego[r][c]
                 for r in range(row*3, (row+1)*3)
                 for c in range(column*3, (column+1)*3)
             ]

@@ -58,11 +58,11 @@ class SudokuUI(Frame):
         self.canvas.delete("numbers")
         for i in range(9):
             for j in range(9):
-                answer = self.game.puzzle[i][j]
+                answer = self.game.juego[i][j]
                 if answer != 0:
                     x = MARGIN + j * SIDE + SIDE / 2
                     y = MARGIN + i * SIDE + SIDE / 2
-                    original = self.game.start_puzzle[i][j]
+                    original = self.game.EmpezarJuego[i][j]
                     color = "black" if answer == original else "sea green"
                     self.canvas.create_text(
                         x, y, text=answer, tags="numbers", fill=color
@@ -97,7 +97,7 @@ class SudokuUI(Frame):
         )
 
     def __cell_clicked(self, event):
-        if self.game.game_over:
+        if self.game.GameOver:
             return
         x, y = event.x, event.y
         if MARGIN < x < WIDTH - MARGIN and MARGIN < y < HEIGHT - MARGIN:
@@ -105,11 +105,12 @@ class SudokuUI(Frame):
 
             # get row and col numbers from x,y coordinates
             row, col = (y - MARGIN) / SIDE, (x - MARGIN) / SIDE
-
+            row= int(row)
+            col= int(col)
             # if cell was selected already - deselect it
             if (row, col) == (self.row, self.col):
                 self.row, self.col = -1, -1
-            elif self.game.puzzle[row][col] == 0:
+            elif self.game.juego[row][col] == 0:
                 self.row, self.col = row, col
         else:
             self.row, self.col = -1, -1
@@ -117,14 +118,14 @@ class SudokuUI(Frame):
         self.__draw_cursor()
 
     def __key_pressed(self, event):
-        if self.game.game_over:
+        if self.game.GameOver:
             return
         if self.row >= 0 and self.col >= 0 and event.char in "1234567890":
-            self.game.puzzle[self.row][self.col] = int(event.char)
+            self.game.juego[self.row][self.col] = int(event.char)
             self.col, self.row = -1, -1
             self.__draw_puzzle()
             self.__draw_cursor()
-            if self.game.check_win():
+            if self.game.verificarWin():
                 self.__draw_victory()
 
     def __clear_answers(self):

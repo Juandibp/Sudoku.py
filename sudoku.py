@@ -365,8 +365,6 @@ def jugar():
 
     def boton_a():
         global  b_editar
-        print("Me Cago en franco")
-        print(type(b_editar))
         if b_editar == 11:
             if tipo == 0:
                 label_11['text'] = botones[0][0]
@@ -376,244 +374,1454 @@ def jugar():
                 label_11['bg'] = botones[1][0]
                 matriz[0][0] = botones[1][0]
         elif b_editar == 12:
-            pass
+            if tipo == 0:
+                label_12['text'] = botones[0][0]
+                matriz[0][1]=botones[0][0]
+
+            else:
+                label_12['bg'] = botones[1][0]
+                matriz[0][1] = botones[1][0]
 
         elif b_editar == 13:
-            pass
+            if tipo == 0:
+                label_13['text'] = botones[0][0]
+                matriz[0][2]=botones[0][0]
+
+            else:
+                label_13['bg'] = botones[1][0]
+                matriz[0][2] = botones[1][0]
 
         elif b_editar == 14:
-            pass
+            if tipo == 0:
+                label_14['text'] = botones[0][0]
+                matriz[0][3]=botones[0][0]
+
+            else:
+                label_14['bg'] = botones[1][0]
+                matriz[0][3] = botones[1][0]
 
         elif b_editar == 15:
-            pass
+            if tipo == 0:
+                label_15['text'] = botones[0][0]
+                matriz[0][4]=botones[0][0]
+
+            else:
+                label_15['bg'] = botones[1][0]
+                matriz[0][4] = botones[1][0]
 
         elif b_editar == 16:
-            pass
+            if tipo == 0:
+                label_16['text'] = botones[0][0]
+                matriz[0][5]=botones[0][0]
+
+            else:
+                label_16['bg'] = botones[1][0]
+                matriz[0][5] = botones[1][0]
 
         elif b_editar == 17:
-            pass
+            if tipo == 0:
+                label_17['text'] = botones[0][0]
+                matriz[0][6]=botones[0][0]
+
+            else:
+                label_17['bg'] = botones[1][0]
+                matriz[0][6] = botones[1][0]
 
         elif b_editar == 18:
-            pass
+            if tipo == 0:
+                label_18['text'] = botones[0][0]
+                matriz[0][7]=botones[0][0]
+
+            else:
+                label_18['bg'] = botones[1][0]
+                matriz[0][7] = botones[1][0]
 
         elif b_editar == 19:
-            pass
+            if tipo == 0:
+                label_19['text'] = botones[0][0]
+                matriz[0][8]=botones[0][0]
+
+            else:
+                label_19['bg'] = botones[1][0]
+                matriz[0][8] = botones[1][0]
 
         elif b_editar == 21:
-            pass
+            if tipo == 0:
+                label_21['text'] = botones[0][0]
+                matriz[1][0]=botones[0][0]
+
+            else:
+                label_21['bg'] = botones[1][0]
+                matriz[1][0] = botones[1][0]
 
         elif b_editar == 22:
-            pass
+            if tipo == 0:
+                label_22['text'] = botones[0][0]
+                matriz[1][1]=botones[0][0]
+
+            else:
+                label_22['bg'] = botones[1][0]
+                matriz[1][1] = botones[1][0]
 
         elif b_editar == 23:
-            pass
+            if tipo == 0:
+                label_23['text'] = botones[0][0]
+                matriz[1][2]=botones[0][0]
+
+            else:
+                label_23['bg'] = botones[1][0]
+                matriz[1][2] = botones[1][0]
 
         elif b_editar == 24:
-            pass
+            if tipo == 0:
+                label_24['text'] = botones[0][0]
+                matriz[1][3]=botones[0][0]
+
+            else:
+                label_24['bg'] = botones[1][0]
+                matriz[1][3] = botones[1][0]
 
         elif b_editar == 25:
-            pass
+            if tipo == 0:
+                label_25['text'] = botones[0][0]
+                matriz[1][4]=botones[0][0]
+
+            else:
+                label_25['bg'] = botones[1][0]
+                matriz[1][4] = botones[1][0]
 
         elif b_editar == 26:
-            pass
+            if tipo == 0:
+                label_26['text'] = botones[0][0]
+                matriz[1][5]=botones[0][0]
+
+            else:
+                label_26['bg'] = botones[1][0]
+                matriz[1][5] = botones[1][0]
 
         elif b_editar == 27:
-            pass
+            if tipo == 0:
+                label_27['text'] = botones[0][0]
+                matriz[1][6]=botones[0][0]
+
+            else:
+                label_27['bg'] = botones[1][0]
+                matriz[1][6] = botones[1][0]
 
         elif b_editar == 28:
-            pass
+            if tipo == 0:
+                label_28['text'] = botones[0][0]
+                matriz[1][7]=botones[0][0]
+
+            else:
+                label_28['bg'] = botones[1][0]
+                matriz[1][7] = botones[1][0]
 
         elif b_editar == 29:
-            pass
+            if tipo == 0:
+                label_29['text'] = botones[0][0]
+                matriz[1][8]=botones[0][0]
+
+            else:
+                label_29['bg'] = botones[1][0]
+                matriz[1][8] = botones[1][0]
 
         elif b_editar == 31:
-            pass
+            if tipo == 0:
+                label_31['text'] = botones[0][0]
+                matriz[2][0]=botones[0][0]
+
+            else:
+                label_31['bg'] = botones[1][0]
+                matriz[2][0] = botones[1][0]
 
         elif b_editar == 32:
-            pass
+            if tipo == 0:
+                label_32['text'] = botones[0][0]
+                matriz[2][1]=botones[0][0]
+
+            else:
+                label_32['bg'] = botones[1][0]
+                matriz[2][1] = botones[1][0]
 
         elif b_editar == 33:
-            pass
+            if tipo == 0:
+                label_33['text'] = botones[0][0]
+                matriz[2][2]=botones[0][0]
+
+            else:
+                label_33['bg'] = botones[1][0]
+                matriz[2][2] = botones[1][0]
 
         elif b_editar == 34:
-            pass
+            if tipo == 0:
+                label_34['text'] = botones[0][0]
+                matriz[2][3]=botones[0][0]
+
+            else:
+                label_34['bg'] = botones[1][0]
+                matriz[2][3] = botones[1][0]
 
         elif b_editar == 35:
-            pass
+            if tipo == 0:
+                label_35['text'] = botones[0][0]
+                matriz[2][4]=botones[0][0]
+
+            else:
+                label_35['bg'] = botones[1][0]
+                matriz[2][4] = botones[1][0]
 
         elif b_editar == 36:
-            pass
+            if tipo == 0:
+                label_36['text'] = botones[0][0]
+                matriz[2][5]=botones[0][0]
+
+            else:
+                label_36['bg'] = botones[1][0]
+                matriz[2][5] = botones[1][0]
 
         elif b_editar == 37:
-            pass
+            if tipo == 0:
+                label_37['text'] = botones[0][0]
+                matriz[2][6]=botones[0][0]
+
+            else:
+                label_37['bg'] = botones[1][0]
+                matriz[2][6] = botones[1][0]
 
         elif b_editar == 38:
-            pass
+            if tipo == 0:
+                label_38['text'] = botones[0][0]
+                matriz[2][7]=botones[0][0]
+
+            else:
+                label_38['bg'] = botones[1][0]
+                matriz[2][7] = botones[1][0]
 
         elif b_editar == 39:
-            pass
+            if tipo == 0:
+                label_39['text'] = botones[0][0]
+                matriz[2][8]=botones[0][0]
+
+            else:
+                label_39['bg'] = botones[1][0]
+                matriz[2][8] = botones[1][0]
 
         elif b_editar == 41:
-            pass
+            if tipo == 0:
+                label_41['text'] = botones[0][0]
+                matriz[3][0]=botones[0][0]
+
+            else:
+                label_41['bg'] = botones[1][0]
+                matriz[3][0] = botones[1][0]
 
         elif b_editar == 42:
-            pass
+            if tipo == 0:
+                label_42['text'] = botones[0][0]
+                matriz[3][1]=botones[0][0]
+
+            else:
+                label_42['bg'] = botones[1][0]
+                matriz[3][1] = botones[1][0]
 
         elif b_editar == 43:
-            pass
+            if tipo == 0:
+                label_43['text'] = botones[0][0]
+                matriz[3][2]=botones[0][0]
+
+            else:
+                label_43['bg'] = botones[1][0]
+                matriz[3][2] = botones[1][0]
 
         elif b_editar == 44:
-            pass
+            if tipo == 0:
+                label_44['text'] = botones[0][0]
+                matriz[3][3]=botones[0][0]
+
+            else:
+                label_44['bg'] = botones[1][0]
+                matriz[3][3] = botones[1][0]
 
         elif b_editar == 45:
-            pass
+            if tipo == 0:
+                label_45['text'] = botones[0][0]
+                matriz[3][4]=botones[0][0]
+
+            else:
+                label_45['bg'] = botones[1][0]
+                matriz[3][4] = botones[1][0]
 
         elif b_editar == 46:
-            pass
+            if tipo == 0:
+                label_46['text'] = botones[0][0]
+                matriz[3][5]=botones[0][0]
+
+            else:
+                label_46['bg'] = botones[1][0]
+                matriz[3][5] = botones[1][0]
 
         elif b_editar == 47:
-            pass
+            if tipo == 0:
+                label_41['text'] = botones[0][0]
+                matriz[3][6]=botones[0][0]
+
+            else:
+                label_41['bg'] = botones[1][0]
+                matriz[3][6] = botones[1][0]
 
         elif b_editar == 48:
-            pass
+            if tipo == 0:
+                label_48['text'] = botones[0][0]
+                matriz[3][7]=botones[0][0]
+
+            else:
+                label_48['bg'] = botones[1][0]
+                matriz[3][7] = botones[1][0]
 
         elif b_editar == 49:
-            pass
+            if tipo == 0:
+                label_49['text'] = botones[0][0]
+                matriz[3][8]=botones[0][0]
+
+            else:
+                label_49['bg'] = botones[1][0]
+                matriz[3][8] = botones[1][0]
 
         elif b_editar == 51:
-            pass
+            if tipo == 0:
+                label_51['text'] = botones[0][0]
+                matriz[4][0]=botones[0][0]
+
+            else:
+                label_51['bg'] = botones[1][0]
+                matriz[4][0] = botones[1][0]
 
         elif b_editar == 52:
-            pass
+            if tipo == 0:
+                label_52['text'] = botones[0][0]
+                matriz[4][1]=botones[0][0]
+
+            else:
+                label_52['bg'] = botones[1][0]
+                matriz[4][1] = botones[1][0]
 
         elif b_editar == 53:
-            pass
+            if tipo == 0:
+                label_53['text'] = botones[0][0]
+                matriz[4][2]=botones[0][0]
+
+            else:
+                label_53['bg'] = botones[1][0]
+                matriz[4][2] = botones[1][0]
 
         elif b_editar == 54:
-            pass
+            if tipo == 0:
+                label_54['text'] = botones[0][0]
+                matriz[4][3]=botones[0][0]
+
+            else:
+                label_54['bg'] = botones[1][0]
+                matriz[4][3] = botones[1][0]
 
         elif b_editar == 55:
-            pass
+            if tipo == 0:
+                label_55['text'] = botones[0][0]
+                matriz[4][4]=botones[0][0]
+
+            else:
+                label_55['bg'] = botones[1][0]
+                matriz[4][4] = botones[1][0]
 
         elif b_editar == 56:
-            pass
+            if tipo == 0:
+                label_56['text'] = botones[0][0]
+                matriz[4][5]=botones[0][0]
+
+            else:
+                label_56['bg'] = botones[1][0]
+                matriz[4][5] = botones[1][0]
 
         elif b_editar == 57:
-            pass
+            if tipo == 0:
+                label_57['text'] = botones[0][0]
+                matriz[4][6]=botones[0][0]
+
+            else:
+                label_57['bg'] = botones[1][0]
+                matriz[4][6] = botones[1][0]
 
         elif b_editar == 58:
-            pass
+            if tipo == 0:
+                label_58['text'] = botones[0][0]
+                matriz[4][7]=botones[0][0]
+
+            else:
+                label_58['bg'] = botones[1][0]
+                matriz[4][7] = botones[1][0]
 
         elif b_editar == 59:
-            pass
+            if tipo == 0:
+                label_59['text'] = botones[0][0]
+                matriz[4][8]=botones[0][0]
+
+            else:
+                label_59['bg'] = botones[1][0]
+                matriz[4][8] = botones[1][0]
 
         elif b_editar == 61:
-            pass
+            if tipo == 0:
+                label_61['text'] = botones[0][0]
+                matriz[5][0]=botones[0][0]
+
+            else:
+                label_61['bg'] = botones[1][0]
+                matriz[5][0] = botones[1][0]
 
         elif b_editar == 62:
-            pass
+            if tipo == 0:
+                label_62['text'] = botones[0][0]
+                matriz[5][1]=botones[0][0]
+
+            else:
+                label_62['bg'] = botones[1][0]
+                matriz[5][1] = botones[1][0]
 
         elif b_editar == 63:
-            pass
+            if tipo == 0:
+                label_63['text'] = botones[0][0]
+                matriz[5][2]=botones[0][0]
+
+            else:
+                label_63['bg'] = botones[1][0]
+                matriz[5][2] = botones[1][0]
 
         elif b_editar == 64:
-            pass
+            if tipo == 0:
+                label_64['text'] = botones[0][0]
+                matriz[5][3]=botones[0][0]
+
+            else:
+                label_64['bg'] = botones[1][0]
+                matriz[5][3] = botones[1][0]
 
         elif b_editar == 65:
-            pass
+            if tipo == 0:
+                label_65['text'] = botones[0][0]
+                matriz[5][4]=botones[0][0]
+
+            else:
+                label_65['bg'] = botones[1][0]
+                matriz[5][4] = botones[1][0]
 
         elif b_editar == 66:
-            pass
+            if tipo == 0:
+                label_66['text'] = botones[0][0]
+                matriz[5][5]=botones[0][0]
+
+            else:
+                label_66['bg'] = botones[1][0]
+                matriz[5][5] = botones[1][0]
 
         elif b_editar == 67:
-            pass
+            if tipo == 0:
+                label_67['text'] = botones[0][0]
+                matriz[5][6]=botones[0][0]
+
+            else:
+                label_67['bg'] = botones[1][0]
+                matriz[5][6] = botones[1][0]
 
         elif b_editar == 68:
-            pass
+            if tipo == 0:
+                label_68['text'] = botones[0][0]
+                matriz[5][7]=botones[0][0]
+
+            else:
+                label_68['bg'] = botones[1][0]
+                matriz[5][7] = botones[1][0]
 
         elif b_editar == 69:
-            pass
+            if tipo == 0:
+                label_69['text'] = botones[0][0]
+                matriz[5][8]=botones[0][0]
+
+            else:
+                label_69['bg'] = botones[1][0]
+                matriz[5][8] = botones[1][0]
 
         elif b_editar == 71:
-            pass
+            if tipo == 0:
+                label_71['text'] = botones[0][0]
+                matriz[6][0]=botones[0][0]
+
+            else:
+                label_71['bg'] = botones[1][0]
+                matriz[6][0] = botones[1][0]
 
         elif b_editar == 72:
-            pass
+            if tipo == 0:
+                label_72['text'] = botones[0][0]
+                matriz[6][1]=botones[0][0]
+
+            else:
+                label_72['bg'] = botones[1][0]
+                matriz[6][1] = botones[1][0]
 
         elif b_editar == 73:
-            pass
+            if tipo == 0:
+                label_73['text'] = botones[0][0]
+                matriz[6][2]=botones[0][0]
+
+            else:
+                label_73['bg'] = botones[1][0]
+                matriz[6][2] = botones[1][0]
 
         elif b_editar == 74:
-            pass
+            if tipo == 0:
+                label_74['text'] = botones[0][0]
+                matriz[6][3]=botones[0][0]
+
+            else:
+                label_74['bg'] = botones[1][0]
+                matriz[6][3] = botones[1][0]
 
         elif b_editar == 75:
-            pass
+            if tipo == 0:
+                label_75['text'] = botones[0][0]
+                matriz[6][4]=botones[0][0]
+
+            else:
+                label_75['bg'] = botones[1][0]
+                matriz[6][4] = botones[1][0]
 
         elif b_editar == 76:
-            pass
+            if tipo == 0:
+                label_76['text'] = botones[0][0]
+                matriz[6][5]=botones[0][0]
+
+            else:
+                label_76['bg'] = botones[1][0]
+                matriz[6][5] = botones[1][0]
 
         elif b_editar == 77:
-            pass
+            if tipo == 0:
+                label_77['text'] = botones[0][0]
+                matriz[6][6]=botones[0][0]
+
+            else:
+                label_77['bg'] = botones[1][0]
+                matriz[6][6] = botones[1][0]
 
         elif b_editar == 78:
-            pass
+            if tipo == 0:
+                label_78['text'] = botones[0][0]
+                matriz[6][7]=botones[0][0]
+
+            else:
+                label_78['bg'] = botones[1][0]
+                matriz[6][7] = botones[1][0]
 
         elif b_editar == 79:
-            pass
+            if tipo == 0:
+                label_79['text'] = botones[0][0]
+                matriz[6][8]=botones[0][0]
+
+            else:
+                label_79['bg'] = botones[1][0]
+                matriz[6][8] = botones[1][0]
 
         elif b_editar == 81:
-            pass
+            if tipo == 0:
+                label_81['text'] = botones[0][0]
+                matriz[7][0]=botones[0][0]
+
+            else:
+                label_81['bg'] = botones[1][0]
+                matriz[7][0] = botones[1][0]
 
         elif b_editar == 82:
-            pass
+            if tipo == 0:
+                label_82['text'] = botones[0][0]
+                matriz[7][1]=botones[0][0]
+
+            else:
+                label_82['bg'] = botones[1][0]
+                matriz[7][1] = botones[1][0]
 
         elif b_editar == 83:
-            pass
+            if tipo == 0:
+                label_83['text'] = botones[0][0]
+                matriz[7][2]=botones[0][0]
+
+            else:
+                label_83['bg'] = botones[1][0]
+                matriz[7][2] = botones[1][0]
 
         elif b_editar == 84:
-            pass
+            if tipo == 0:
+                label_84['text'] = botones[0][0]
+                matriz[7][3]=botones[0][0]
+
+            else:
+                label_84['bg'] = botones[1][0]
+                matriz[7][3] = botones[1][0]
 
         elif b_editar == 85:
-            pass
+            if tipo == 0:
+                label_85['text'] = botones[0][0]
+                matriz[7][4]=botones[0][0]
+
+            else:
+                label_85['bg'] = botones[1][0]
+                matriz[7][4] = botones[1][0]
 
         elif b_editar == 86:
-            pass
+            if tipo == 0:
+                label_86['text'] = botones[0][0]
+                matriz[7][5]=botones[0][0]
+
+            else:
+                label_86['bg'] = botones[1][0]
+                matriz[7][5] = botones[1][0]
 
         elif b_editar == 87:
-            pass
+            if tipo == 0:
+                label_87['text'] = botones[0][0]
+                matriz[7][6]=botones[0][0]
+
+            else:
+                label_87['bg'] = botones[1][0]
+                matriz[7][6] = botones[1][0]
 
         elif b_editar == 88:
-            pass
+            if tipo == 0:
+                label_88['text'] = botones[0][0]
+                matriz[7][7]=botones[0][0]
+
+            else:
+                label_88['bg'] = botones[1][0]
+                matriz[7][7] = botones[1][0]
 
         elif b_editar == 89:
-            pass
+            if tipo == 0:
+                label_89['text'] = botones[0][0]
+                matriz[7][8]=botones[0][0]
+
+            else:
+                label_89['bg'] = botones[1][0]
+                matriz[7][8] = botones[1][0]
 
         elif b_editar == 91:
-            pass
+            if tipo == 0:
+                label_91['text'] = botones[0][0]
+                matriz[8][0]=botones[0][0]
+
+            else:
+                label_91['bg'] = botones[1][0]
+                matriz[8][0] = botones[1][0]
 
         elif b_editar == 92:
-            pass
+            if tipo == 0:
+                label_92['text'] = botones[0][0]
+                matriz[8][1]=botones[0][0]
+
+            else:
+                label_92['bg'] = botones[1][0]
+                matriz[8][1] = botones[1][0]
 
         elif b_editar == 93:
-            pass
+            if tipo == 0:
+                label_93['text'] = botones[0][0]
+                matriz[8][2]=botones[0][0]
+
+            else:
+                label_93['bg'] = botones[1][0]
+                matriz[8][2] = botones[1][0]
 
         elif b_editar == 94:
-            pass
+            if tipo == 0:
+                label_94['text'] = botones[0][0]
+                matriz[8][3]=botones[0][0]
+
+            else:
+                label_94['bg'] = botones[1][0]
+                matriz[8][3] = botones[1][0]
 
         elif b_editar == 95:
-            pass
+            if tipo == 0:
+                label_95['text'] = botones[0][0]
+                matriz[8][4]=botones[0][0]
+
+            else:
+                label_95['bg'] = botones[1][0]
+                matriz[8][4] = botones[1][0]
 
         elif b_editar == 96:
-            pass
+            if tipo == 0:
+                label_96['text'] = botones[0][0]
+                matriz[8][5]=botones[0][0]
+
+            else:
+                label_96['bg'] = botones[1][0]
+                matriz[8][5] = botones[1][0]
 
         elif b_editar == 97:
-            pass
+            if tipo == 0:
+                label_97['text'] = botones[0][0]
+                matriz[8][6]=botones[0][0]
+
+            else:
+                label_97['bg'] = botones[1][0]
+                matriz[8][6] = botones[1][0]
 
         elif b_editar == 98:
-            pass
+            if tipo == 0:
+                label_98['text'] = botones[0][0]
+                matriz[8][7]=botones[0][0]
+
+            else:
+                label_98['bg'] = botones[1][0]
+                matriz[8][7] = botones[1][0]
 
         elif b_editar == 99:
-            pass
+            if tipo == 0:
+                label_99['text'] = botones[0][0]
+                matriz[8][8]=botones[0][0]
+
+            else:
+                label_99['bg'] = botones[1][0]
+                matriz[8][8] = botones[1][0]
+
+    def boton_b():
+        global  b_editar
+        if b_editar == 11:
+            if tipo == 0:
+                label_11['text'] = botones[0][1]
+                matriz[0][0]=botones[0][1]
+
+            else:
+                label_11['bg'] = botones[1][1]
+                matriz[0][0] = botones[1][1]
+        elif b_editar == 12:
+            if tipo == 0:
+                label_12['text'] = botones[0][1]
+                matriz[0][1]=botones[0][1]
+
+            else:
+                label_12['bg'] = botones[1][1]
+                matriz[0][1] = botones[1][1]
+
+        elif b_editar == 13:
+            if tipo == 0:
+                label_13['text'] = botones[0][1]
+                matriz[0][2]=botones[0][1]
+
+            else:
+                label_13['bg'] = botones[1][1]
+                matriz[0][2] = botones[1][1]
+
+        elif b_editar == 14:
+            if tipo == 0:
+                label_14['text'] = botones[0][1]
+                matriz[0][3]=botones[0][1]
+
+            else:
+                label_14['bg'] = botones[1][1]
+                matriz[0][3] = botones[1][1]
+
+        elif b_editar == 15:
+            if tipo == 0:
+                label_15['text'] = botones[0][1]
+                matriz[0][4]=botones[0][1]
+
+            else:
+                label_15['bg'] = botones[1][1]
+                matriz[0][4] = botones[1][1]
+
+        elif b_editar == 16:
+            if tipo == 0:
+                label_16['text'] = botones[0][1]
+                matriz[0][5]=botones[0][1]
+
+            else:
+                label_16['bg'] = botones[1][1]
+                matriz[0][5] = botones[1][1]
+
+        elif b_editar == 17:
+            if tipo == 0:
+                label_17['text'] = botones[0][1]
+                matriz[0][6]=botones[0][1]
+
+            else:
+                label_17['bg'] = botones[1][1]
+                matriz[0][6] = botones[1][1]
+
+        elif b_editar == 18:
+            if tipo == 0:
+                label_18['text'] = botones[0][1]
+                matriz[0][7]=botones[0][1]
+
+            else:
+                label_18['bg'] = botones[1][1]
+                matriz[0][7] = botones[1][1]
+
+        elif b_editar == 19:
+            if tipo == 0:
+                label_19['text'] = botones[0][1]
+                matriz[0][8]=botones[0][1]
+
+            else:
+                label_19['bg'] = botones[1][1]
+                matriz[0][8] = botones[1][1]
+
+        elif b_editar == 21:
+            if tipo == 0:
+                label_21['text'] = botones[0][1]
+                matriz[1][0]=botones[0][1]
+
+            else:
+                label_21['bg'] = botones[1][1]
+                matriz[1][0] = botones[1][1]
+
+        elif b_editar == 22:
+            if tipo == 0:
+                label_22['text'] = botones[0][1]
+                matriz[1][1]=botones[0][1]
+
+            else:
+                label_22['bg'] = botones[1][1]
+                matriz[1][1] = botones[1][1]
+
+        elif b_editar == 23:
+            if tipo == 0:
+                label_23['text'] = botones[0][1]
+                matriz[1][2]=botones[0][1]
+
+            else:
+                label_23['bg'] = botones[1][1]
+                matriz[1][2] = botones[1][1]
+
+        elif b_editar == 24:
+            if tipo == 0:
+                label_24['text'] = botones[0][1]
+                matriz[1][3]=botones[0][1]
+
+            else:
+                label_24['bg'] = botones[1][1]
+                matriz[1][3] = botones[1][1]
+
+        elif b_editar == 25:
+            if tipo == 0:
+                label_25['text'] = botones[0][1]
+                matriz[1][4]=botones[0][1]
+
+            else:
+                label_25['bg'] = botones[1][1]
+                matriz[1][4] = botones[1][1]
+
+        elif b_editar == 26:
+            if tipo == 0:
+                label_26['text'] = botones[0][1]
+                matriz[1][5]=botones[0][1]
+
+            else:
+                label_26['bg'] = botones[1][1]
+                matriz[1][5] = botones[1][1]
+
+        elif b_editar == 27:
+            if tipo == 0:
+                label_27['text'] = botones[0][1]
+                matriz[1][6]=botones[0][1]
+
+            else:
+                label_27['bg'] = botones[1][1]
+                matriz[1][6] = botones[1][1]
+
+        elif b_editar == 28:
+            if tipo == 0:
+                label_28['text'] = botones[0][1]
+                matriz[1][7]=botones[0][1]
+
+            else:
+                label_28['bg'] = botones[1][1]
+                matriz[1][7] = botones[1][1]
+
+        elif b_editar == 29:
+            if tipo == 0:
+                label_29['text'] = botones[0][1]
+                matriz[1][8]=botones[0][1]
+
+            else:
+                label_29['bg'] = botones[1][1]
+                matriz[1][8] = botones[1][1]
+
+        elif b_editar == 31:
+            if tipo == 0:
+                label_31['text'] = botones[0][1]
+                matriz[2][0]=botones[0][1]
+
+            else:
+                label_31['bg'] = botones[1][1]
+                matriz[2][0] = botones[1][1]
+
+        elif b_editar == 32:
+            if tipo == 0:
+                label_32['text'] = botones[0][1]
+                matriz[2][1]=botones[0][1]
+
+            else:
+                label_32['bg'] = botones[1][1]
+                matriz[2][1] = botones[1][1]
+
+        elif b_editar == 33:
+            if tipo == 0:
+                label_33['text'] = botones[0][1]
+                matriz[2][2]=botones[0][1]
+
+            else:
+                label_33['bg'] = botones[1][1]
+                matriz[2][2] = botones[1][1]
+
+        elif b_editar == 34:
+            if tipo == 0:
+                label_34['text'] = botones[0][1]
+                matriz[2][3]=botones[0][1]
+
+            else:
+                label_34['bg'] = botones[1][1]
+                matriz[2][3] = botones[1][1]
+
+        elif b_editar == 35:
+            if tipo == 0:
+                label_35['text'] = botones[0][1]
+                matriz[2][4]=botones[0][1]
+
+            else:
+                label_35['bg'] = botones[1][1]
+                matriz[2][4] = botones[1][1]
+
+        elif b_editar == 36:
+            if tipo == 0:
+                label_36['text'] = botones[0][1]
+                matriz[2][5]=botones[0][1]
+
+            else:
+                label_36['bg'] = botones[1][1]
+                matriz[2][5] = botones[1][1]
+
+        elif b_editar == 37:
+            if tipo == 0:
+                label_37['text'] = botones[0][1]
+                matriz[2][6]=botones[0][1]
+
+            else:
+                label_37['bg'] = botones[1][1]
+                matriz[2][6] = botones[1][1]
+
+        elif b_editar == 38:
+            if tipo == 0:
+                label_38['text'] = botones[0][1]
+                matriz[2][7]=botones[0][1]
+
+            else:
+                label_38['bg'] = botones[1][1]
+                matriz[2][7] = botones[1][1]
+
+        elif b_editar == 39:
+            if tipo == 0:
+                label_39['text'] = botones[0][1]
+                matriz[2][8]=botones[0][1]
+
+            else:
+                label_39['bg'] = botones[1][1]
+                matriz[2][8] = botones[1][1]
+
+        elif b_editar == 41:
+            if tipo == 0:
+                label_41['text'] = botones[0][1]
+                matriz[3][0]=botones[0][1]
+
+            else:
+                label_41['bg'] = botones[1][1]
+                matriz[3][0] = botones[1][1]
+
+        elif b_editar == 42:
+            if tipo == 0:
+                label_42['text'] = botones[0][1]
+                matriz[3][1]=botones[0][1]
+
+            else:
+                label_42['bg'] = botones[1][1]
+                matriz[3][1] = botones[1][1]
+
+        elif b_editar == 43:
+            if tipo == 0:
+                label_43['text'] = botones[0][1]
+                matriz[3][2]=botones[0][1]
+
+            else:
+                label_43['bg'] = botones[1][1]
+                matriz[3][2] = botones[1][1]
+
+        elif b_editar == 44:
+            if tipo == 0:
+                label_44['text'] = botones[0][1]
+                matriz[3][3]=botones[0][1]
+
+            else:
+                label_44['bg'] = botones[1][1]
+                matriz[3][3] = botones[1][1]
+
+        elif b_editar == 45:
+            if tipo == 0:
+                label_45['text'] = botones[0][1]
+                matriz[3][4]=botones[0][1]
+
+            else:
+                label_45['bg'] = botones[1][1]
+                matriz[3][4] = botones[1][1]
+
+        elif b_editar == 46:
+            if tipo == 0:
+                label_46['text'] = botones[0][1]
+                matriz[3][5]=botones[0][1]
+
+            else:
+                label_46['bg'] = botones[1][1]
+                matriz[3][5] = botones[1][1]
+
+        elif b_editar == 47:
+            if tipo == 0:
+                label_41['text'] = botones[0][1]
+                matriz[3][6]=botones[0][1]
+
+            else:
+                label_41['bg'] = botones[1][1]
+                matriz[3][6] = botones[1][1]
+
+        elif b_editar == 48:
+            if tipo == 0:
+                label_48['text'] = botones[0][1]
+                matriz[3][7]=botones[0][1]
+
+            else:
+                label_48['bg'] = botones[1][1]
+                matriz[3][7] = botones[1][1]
+
+        elif b_editar == 49:
+            if tipo == 0:
+                label_49['text'] = botones[0][1]
+                matriz[3][8]=botones[0][1]
+
+            else:
+                label_49['bg'] = botones[1][1]
+                matriz[3][8] = botones[1][1]
+
+        elif b_editar == 51:
+            if tipo == 0:
+                label_51['text'] = botones[0][1]
+                matriz[4][0]=botones[0][1]
+
+            else:
+                label_51['bg'] = botones[1][1]
+                matriz[4][0] = botones[1][1]
+
+        elif b_editar == 52:
+            if tipo == 0:
+                label_52['text'] = botones[0][1]
+                matriz[4][1]=botones[0][1]
+
+            else:
+                label_52['bg'] = botones[1][1]
+                matriz[4][1] = botones[1][1]
+
+        elif b_editar == 53:
+            if tipo == 0:
+                label_53['text'] = botones[0][1]
+                matriz[4][2]=botones[0][1]
+
+            else:
+                label_53['bg'] = botones[1][1]
+                matriz[4][2] = botones[1][1]
+
+        elif b_editar == 54:
+            if tipo == 0:
+                label_54['text'] = botones[0][1]
+                matriz[4][3]=botones[0][1]
+
+            else:
+                label_54['bg'] = botones[1][1]
+                matriz[4][3] = botones[1][1]
+
+        elif b_editar == 55:
+            if tipo == 0:
+                label_55['text'] = botones[0][1]
+                matriz[4][4]=botones[0][1]
+
+            else:
+                label_55['bg'] = botones[1][1]
+                matriz[4][4] = botones[1][1]
+
+        elif b_editar == 56:
+            if tipo == 0:
+                label_56['text'] = botones[0][1]
+                matriz[4][5]=botones[0][1]
+
+            else:
+                label_56['bg'] = botones[1][1]
+                matriz[4][5] = botones[1][1]
+
+        elif b_editar == 57:
+            if tipo == 0:
+                label_57['text'] = botones[0][1]
+                matriz[4][6]=botones[0][1]
+
+            else:
+                label_57['bg'] = botones[1][1]
+                matriz[4][6] = botones[1][1]
+
+        elif b_editar == 58:
+            if tipo == 0:
+                label_58['text'] = botones[0][1]
+                matriz[4][7]=botones[0][1]
+
+            else:
+                label_58['bg'] = botones[1][1]
+                matriz[4][7] = botones[1][1]
+
+        elif b_editar == 59:
+            if tipo == 0:
+                label_59['text'] = botones[0][1]
+                matriz[4][8]=botones[0][1]
+
+            else:
+                label_59['bg'] = botones[1][1]
+                matriz[4][8] = botones[1][1]
+
+        elif b_editar == 61:
+            if tipo == 0:
+                label_61['text'] = botones[0][1]
+                matriz[5][0]=botones[0][1]
+
+            else:
+                label_61['bg'] = botones[1][1]
+                matriz[5][0] = botones[1][1]
+
+        elif b_editar == 62:
+            if tipo == 0:
+                label_62['text'] = botones[0][1]
+                matriz[5][1]=botones[0][1]
+
+            else:
+                label_62['bg'] = botones[1][1]
+                matriz[5][1] = botones[1][1]
+
+        elif b_editar == 63:
+            if tipo == 0:
+                label_63['text'] = botones[0][1]
+                matriz[5][2]=botones[0][1]
+
+            else:
+                label_63['bg'] = botones[1][1]
+                matriz[5][2] = botones[1][1]
+
+        elif b_editar == 64:
+            if tipo == 0:
+                label_64['text'] = botones[0][1]
+                matriz[5][3]=botones[0][1]
+
+            else:
+                label_64['bg'] = botones[1][1]
+                matriz[5][3] = botones[1][1]
+
+        elif b_editar == 65:
+            if tipo == 0:
+                label_65['text'] = botones[0][1]
+                matriz[5][4]=botones[0][1]
+
+            else:
+                label_65['bg'] = botones[1][1]
+                matriz[5][4] = botones[1][1]
+
+        elif b_editar == 66:
+            if tipo == 0:
+                label_66['text'] = botones[0][1]
+                matriz[5][5]=botones[0][1]
+
+            else:
+                label_66['bg'] = botones[1][1]
+                matriz[5][5] = botones[1][1]
+
+        elif b_editar == 67:
+            if tipo == 0:
+                label_67['text'] = botones[0][1]
+                matriz[5][6]=botones[0][1]
+
+            else:
+                label_67['bg'] = botones[1][1]
+                matriz[5][6] = botones[1][1]
+
+        elif b_editar == 68:
+            if tipo == 0:
+                label_68['text'] = botones[0][1]
+                matriz[5][7]=botones[0][1]
+
+            else:
+                label_68['bg'] = botones[1][1]
+                matriz[5][7] = botones[1][1]
+
+        elif b_editar == 69:
+            if tipo == 0:
+                label_69['text'] = botones[0][1]
+                matriz[5][8]=botones[0][1]
+
+            else:
+                label_69['bg'] = botones[1][1]
+                matriz[5][8] = botones[1][1]
+
+        elif b_editar == 71:
+            if tipo == 0:
+                label_71['text'] = botones[0][1]
+                matriz[6][0]=botones[0][1]
+
+            else:
+                label_71['bg'] = botones[1][1]
+                matriz[6][0] = botones[1][1]
+
+        elif b_editar == 72:
+            if tipo == 0:
+                label_72['text'] = botones[0][1]
+                matriz[6][1]=botones[0][1]
+
+            else:
+                label_72['bg'] = botones[1][1]
+                matriz[6][1] = botones[1][1]
+
+        elif b_editar == 73:
+            if tipo == 0:
+                label_73['text'] = botones[0][1]
+                matriz[6][2]=botones[0][1]
+
+            else:
+                label_73['bg'] = botones[1][1]
+                matriz[6][2] = botones[1][1]
+
+        elif b_editar == 74:
+            if tipo == 0:
+                label_74['text'] = botones[0][1]
+                matriz[6][3]=botones[0][1]
+
+            else:
+                label_74['bg'] = botones[1][1]
+                matriz[6][3] = botones[1][1]
+
+        elif b_editar == 75:
+            if tipo == 0:
+                label_75['text'] = botones[0][1]
+                matriz[6][4]=botones[0][1]
+
+            else:
+                label_75['bg'] = botones[1][1]
+                matriz[6][4] = botones[1][1]
+
+        elif b_editar == 76:
+            if tipo == 0:
+                label_76['text'] = botones[0][1]
+                matriz[6][5]=botones[0][1]
+
+            else:
+                label_76['bg'] = botones[1][1]
+                matriz[6][5] = botones[1][1]
+
+        elif b_editar == 77:
+            if tipo == 0:
+                label_77['text'] = botones[0][1]
+                matriz[6][6]=botones[0][1]
+
+            else:
+                label_77['bg'] = botones[1][1]
+                matriz[6][6] = botones[1][1]
+
+        elif b_editar == 78:
+            if tipo == 0:
+                label_78['text'] = botones[0][1]
+                matriz[6][7]=botones[0][1]
+
+            else:
+                label_78['bg'] = botones[1][1]
+                matriz[6][7] = botones[1][1]
+
+        elif b_editar == 79:
+            if tipo == 0:
+                label_79['text'] = botones[0][1]
+                matriz[6][8]=botones[0][1]
+
+            else:
+                label_79['bg'] = botones[1][1]
+                matriz[6][8] = botones[1][1]
+
+        elif b_editar == 81:
+            if tipo == 0:
+                label_81['text'] = botones[0][1]
+                matriz[7][0]=botones[0][1]
+
+            else:
+                label_81['bg'] = botones[1][1]
+                matriz[7][0] = botones[1][1]
+
+        elif b_editar == 82:
+            if tipo == 0:
+                label_82['text'] = botones[0][1]
+                matriz[7][1]=botones[0][1]
+
+            else:
+                label_82['bg'] = botones[1][1]
+                matriz[7][1] = botones[1][1]
+
+        elif b_editar == 83:
+            if tipo == 0:
+                label_83['text'] = botones[0][1]
+                matriz[7][2]=botones[0][1]
+
+            else:
+                label_83['bg'] = botones[1][1]
+                matriz[7][2] = botones[1][1]
+
+        elif b_editar == 84:
+            if tipo == 0:
+                label_84['text'] = botones[0][1]
+                matriz[7][3]=botones[0][1]
+
+            else:
+                label_84['bg'] = botones[1][1]
+                matriz[7][3] = botones[1][1]
+
+        elif b_editar == 85:
+            if tipo == 0:
+                label_85['text'] = botones[0][1]
+                matriz[7][4]=botones[0][1]
+
+            else:
+                label_85['bg'] = botones[1][1]
+                matriz[7][4] = botones[1][1]
+
+        elif b_editar == 86:
+            if tipo == 0:
+                label_86['text'] = botones[0][1]
+                matriz[7][5]=botones[0][1]
+
+            else:
+                label_86['bg'] = botones[1][1]
+                matriz[7][5] = botones[1][1]
+
+        elif b_editar == 87:
+            if tipo == 0:
+                label_87['text'] = botones[0][1]
+                matriz[7][6]=botones[0][1]
+
+            else:
+                label_87['bg'] = botones[1][1]
+                matriz[7][6] = botones[1][1]
+
+        elif b_editar == 88:
+            if tipo == 0:
+                label_88['text'] = botones[0][1]
+                matriz[7][7]=botones[0][1]
+
+            else:
+                label_88['bg'] = botones[1][1]
+                matriz[7][7] = botones[1][1]
+
+        elif b_editar == 89:
+            if tipo == 0:
+                label_89['text'] = botones[0][1]
+                matriz[7][8]=botones[0][1]
+
+            else:
+                label_89['bg'] = botones[1][1]
+                matriz[7][8] = botones[1][1]
+
+        elif b_editar == 91:
+            if tipo == 0:
+                label_91['text'] = botones[0][1]
+                matriz[8][0]=botones[0][1]
+
+            else:
+                label_91['bg'] = botones[1][1]
+                matriz[8][0] = botones[1][1]
+
+        elif b_editar == 92:
+            if tipo == 0:
+                label_92['text'] = botones[0][1]
+                matriz[8][1]=botones[0][1]
+
+            else:
+                label_92['bg'] = botones[1][1]
+                matriz[8][1] = botones[1][1]
+
+        elif b_editar == 93:
+            if tipo == 0:
+                label_93['text'] = botones[0][1]
+                matriz[8][2]=botones[0][1]
+
+            else:
+                label_93['bg'] = botones[1][1]
+                matriz[8][2] = botones[1][1]
+
+        elif b_editar == 94:
+            if tipo == 0:
+                label_94['text'] = botones[0][1]
+                matriz[8][3]=botones[0][1]
+
+            else:
+                label_94['bg'] = botones[1][1]
+                matriz[8][3] = botones[1][1]
+
+        elif b_editar == 95:
+            if tipo == 0:
+                label_95['text'] = botones[0][1]
+                matriz[8][4]=botones[0][1]
+
+            else:
+                label_95['bg'] = botones[1][1]
+                matriz[8][4] = botones[1][1]
+
+        elif b_editar == 96:
+            if tipo == 0:
+                label_96['text'] = botones[0][1]
+                matriz[8][5]=botones[0][1]
+
+            else:
+                label_96['bg'] = botones[1][1]
+                matriz[8][5] = botones[1][1]
+
+        elif b_editar == 97:
+            if tipo == 0:
+                label_97['text'] = botones[0][1]
+                matriz[8][6]=botones[0][1]
+
+            else:
+                label_97['bg'] = botones[1][1]
+                matriz[8][6] = botones[1][1]
+
+        elif b_editar == 98:
+            if tipo == 0:
+                label_98['text'] = botones[0][1]
+                matriz[8][7]=botones[0][1]
+
+            else:
+                label_98['bg'] = botones[1][1]
+                matriz[8][7] = botones[1][1]
+
+        elif b_editar == 99:
+            if tipo == 0:
+                label_99['text'] = botones[0][1]
+                matriz[8][8]=botones[0][1]
+
+            else:
+                label_99['bg'] = botones[1][1]
+                matriz[8][8] = botones[1][1]
 
 
 def config():
